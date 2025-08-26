@@ -1,7 +1,7 @@
 # Invoice Extractor App
 
 Ứng dụng demo nhận diện và trích xuất dữ liệu hóa đơn/chứng từ từ ảnh bằng AI + OCR.
-
+## 1. Giới thiệu
 `Invoice Extractor App` là ứng dụng demo viết bằng Flask cho phép người dùng tải ảnh hóa đơn/chứng từ lên, thực hiện OCR và áp dụng logic trích xuất để lấy các trường quan trọng (ví dụ: mã hóa đơn, ngày, tổng tiền, thuế, tên nhà cung cấp...). Ứng dụng kết hợp Tesseract OCR cho việc nhận dạng ký tự và các bước xử lý ảnh + quy tắc (hoặc mô hình ML) để trích xuất thông tin có cấu trúc.
 
 Mục tiêu:
