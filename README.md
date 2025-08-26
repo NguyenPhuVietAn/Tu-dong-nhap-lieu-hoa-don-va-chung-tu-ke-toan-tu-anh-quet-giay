@@ -244,13 +244,6 @@ Thử nghiệm mỗi bước vì một số hoá đơn có gradient nền hoặc
 * Triển khai job queue (Celery + Redis/RabbitMQ) cho xử lý bất đồng bộ và reset status tiến trình.
 * Thêm health-check endpoint `/healthz`.
 
-## 16. Ghi chú về bản quyền và đóng góp
-
-* License: thêm file `LICENSE` (ví dụ MIT) nếu muốn.
-* Nếu nhận đóng góp, thêm `CONTRIBUTING.md` hướng dẫn setup local, coding style, test.
-
----
-
 ### Mẫu `requirements.txt` gợi ý
 
 ```
@@ -266,4 +259,5 @@ python-dateutil
 ### Kết luận
 
 README này cung cấp hướng dẫn chi tiết để thiết lập và phát triển tiếp `Invoice Extractor App`. Bạn có thể thêm phần hướng dẫn đóng góp, test case, hoặc ví dụ dataset để giúp người khác dễ dàng tái tạo kết quả. Nếu bạn muốn mình tạo file `CONTRIBUTING.md`, `Dockerfile`, hoặc `docker-compose.yml` để triển khai nhanh, mình sẽ bổ sung tiếp.
+
 
